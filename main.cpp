@@ -4,14 +4,15 @@ using namespace std;
 int main() {
 
   int i;
-  int beanLength;
-  int beanHeight;
+  double beanLength;
+  double beanHeight;
   int jarVolume;
   float singleBeanVolume;
   const double loadFactor = 0.745;
   const double PI = 3.14159265358979323846;
   int numBean;
   int avgBean;
+
 
 
   //Welcom message
@@ -24,31 +25,17 @@ int main() {
   cout << " ";
   cin >>jarVolume;
 
-  do{
   singleBeanVolume = (5*(M_PI)* beanLength * beanHeight)/24;
-
   numBean = (singleBeanVolume*loadFactor)/ singleBeanVolume;
-  }
-     if((beanLength>0)&&(beanHeight>0)&&(jarVolume>0)){
-    cout << "Estimate of jelly beans in the jar: " << numBean <<endl;
-    avgBean =avgBean + numBean;
-    }
-      if
 
-
-
+  while((beanLength =!0) && (beanHeight =!0) && (jarVolume =!0)){
+      cout << "Estimate of jelly beans in the jar: ";
+      cin >> numBean;
+      count++;
   }
-  while ((beanHeight > 0) && (beanLength>0) && (jarVolume>0){
-    cout << numBean;
-  }
+    //avgBean =avgBean + numBean;
     
-
-
-
-
-  }
-
-
+    
 
 
 
